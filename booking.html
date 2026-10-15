@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan a Trip | Roamly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Roam<span><em>ly</em></span></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="about.html">About</a>
+        <a class="" href="destinations.html">Destinations</a>
+        <a class="" href="trip-details.html">Trip Details</a>
+        <a class="" href="itinerary.html">Itinerary</a>
+        <a class="active nav-cta" href="booking.html">Book a Trip</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-banner">
+      <div class="container"><span class="eyebrow">Your next story starts here</span>
+        <h1>Let’s plan your trip.</h1>
+        <p>Tell us a little about the journey you have in mind. This is a front-end demo form, so it will not send or
+          store your details.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container form-layout">
+        <aside class="form-aside"><span class="eyebrow">Travel your way</span>
+          <h2>Big adventure or quiet escape?</h2>
+          <p>Share your ideal destination, dates, and travel style. You can keep your plans flexible—we’ll start with
+            the things that matter most to you.</p>
+          <ul>
+            <li>🌿 Nature and slow travel</li>
+            <li>🏛 Culture and heritage</li>
+            <li>🌊 Beaches and island life</li>
+            <li>🏔 Outdoor adventures</li>
+          </ul>
+          <p><strong>Good to know:</strong> This sample website does not process payments or submit information to a
+            server.</p><a class="btn btn-light" href="trip-details.html">View featured trip</a>
+        </aside>
+        <form class="form-card" action="#" method="get">
+          <h2>Trip enquiry</h2>
+          <p class="note">Fields marked * are required.</p>
+          <div class="form-grid">
+            <div class="field"><label for="name">Full name *</label><input id="name" name="name" type="text"
+                placeholder="Your name" required></div>
+            <div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email"
+                placeholder="you@example.com" required></div>
+            <div class="field"><label for="destination">Destination *</label><select id="destination" name="destination"
+                required>
+                <option value="">Choose a destination</option>
+                <option>Bali, Indonesia</option>
+                <option>Swiss Alps, Switzerland</option>
+                <option>Santorini, Greece</option>
+                <option>New York, USA</option>
+                <option>Agra, India</option>
+                <option>Lake Como, Italy</option>
+                <option>Not decided yet</option>
+              </select></div>
+            <div class="field"><label for="travellers">Travellers *</label><select id="travellers" name="travellers"
+                required>
+                <option value="">Select group size</option>
+                <option>1 traveller</option>
+                <option>2 travellers</option>
+                <option>3–4 travellers</option>
+                <option>5–8 travellers</option>
+                <option>9+ travellers</option>
+              </select></div>
+            <div class="field"><label for="start">Preferred start date</label><input id="start" name="start"
+                type="date"></div>
+            <div class="field"><label for="duration">Trip duration</label><select id="duration" name="duration">
+                <option>Weekend</option>
+                <option>4–6 days</option>
+                <option>7–10 days</option>
+                <option>More than 10 days</option>
+              </select></div>
+            <div class="field full"><label for="style">Travel style</label><select id="style" name="style">
+                <option>Relaxed and scenic</option>
+                <option>Adventure and outdoors</option>
+                <option>Culture and heritage</option>
+                <option>Food and local experiences</option>
+                <option>A mix of everything</option>
+              </select></div>
+            <div class="field full"><label for="message">Anything else we should know?</label><textarea id="message"
+                name="message"
+                placeholder="Tell us about your interests, budget range, or special requests..."></textarea></div>
+            <div class="field full"><button class="btn btn-primary" type="submit">Review enquiry →</button>
+              <p class="note">Demo only: submitting reloads this page with the form fields in the URL; no booking is
+                made.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Roam<em>ly</em></span></a>
+          <p>Thoughtful journeys, memorable places, and a little more wonder in every mile. Your next story starts here.
+          </p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links"><a href="destinations.html">Destinations</a><a href="trip-details.html">Featured
+              trip</a><a href="itinerary.html">Sample itinerary</a></div>
+        </div>
+        <div>
+          <h3>Plan with us</h3>
+          <div class="footer-links"><a href="about.html">Our story</a><a href="booking.html">Book a trip</a><a
+              href="index.html#popular">Popular escapes</a></div>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Roamly Travel Co. • Made for curious travellers.</div>
+    </div>
+  </footer>
+</body>
+
+</html>
