@@ -82,3 +82,14 @@ const student = {
 console.log(student.name)
 console.log(student["age"])
 console.log(student.address.City) 
+
+const user = {
+    name: "Priya"
+};
+
+const {
+  name: studentName,
+  city="Chennai"
+}=user;
+console.log(studentName);
+console.log(city);
